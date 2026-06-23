@@ -38,3 +38,13 @@ This is the standalone starting point used in the workshop.
 If you want to generate slides separately in NotebookLM, use:
 
 - [notebooklm-slide-draft.md](notebooklm-slide-draft.md)
+
+If you want an extended slide version that also covers Polygon Streaming SDK integration as an added segment, use:
+
+- [notebooklm-slide-draft-with-ps.md](notebooklm-slide-draft-with-ps.md)
+
+## Optional Extension
+
+If you want to add Polygon Streaming SDK coverage without turning it into a separate workshop, use:
+
+- [ps-sdk-extension-demo.md](ps-sdk-extension-demo.md)
