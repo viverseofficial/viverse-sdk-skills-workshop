@@ -1,0 +1,5 @@
+apps/hide-and-seek-standalone-base/node_modules/
+apps/hide-and-seek-standalone-base/dist/
+apps/hide-and-seek-standalone-base/.env.local
+apps/hide-and-seek-standalone-base/.DS_Store
+.DS_Store
