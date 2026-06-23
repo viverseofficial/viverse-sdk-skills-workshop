@@ -28,9 +28,10 @@ The workshop demonstrates a full AI IDE workflow:
 If you are a student, use these files in order:
 
 1. [docs/resources.md](docs/resources.md)
-2. [apps/hide-and-seek-standalone-base/README.md](apps/hide-and-seek-standalone-base/README.md)
-3. [docs/student-replay-guide.md](docs/student-replay-guide.md)
-4. [docs/live-demo-prompts.md](docs/live-demo-prompts.md)
+2. [docs/ai-ide-integration-guide.md](docs/ai-ide-integration-guide.md)
+3. [apps/hide-and-seek-standalone-base/README.md](apps/hide-and-seek-standalone-base/README.md)
+4. [docs/student-replay-guide.md](docs/student-replay-guide.md)
+5. [docs/live-demo-prompts.md](docs/live-demo-prompts.md)
 
 If you want to generate slides in NotebookLM, use:
 
@@ -42,6 +43,7 @@ If you want to generate slides in NotebookLM, use:
 apps/
   hide-and-seek-standalone-base/
 docs/
+  ai-ide-integration-guide.md
   resources.md
   student-replay-guide.md
   live-demo-prompts.md

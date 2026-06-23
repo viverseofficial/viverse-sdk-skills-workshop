@@ -20,10 +20,11 @@ This is the standalone starting point used in the workshop.
 
 ## Student Reading Order
 
-1. Read [../apps/hide-and-seek-standalone-base/README.md](../apps/hide-and-seek-standalone-base/README.md)
-2. Read [student-replay-guide.md](student-replay-guide.md)
-3. Use [live-demo-prompts.md](live-demo-prompts.md) to replay the workflow
-4. Use the official skills repository when you want to inspect the source skills directly
+1. Read [ai-ide-integration-guide.md](ai-ide-integration-guide.md)
+2. Read [../apps/hide-and-seek-standalone-base/README.md](../apps/hide-and-seek-standalone-base/README.md)
+3. Read [student-replay-guide.md](student-replay-guide.md)
+4. Use [live-demo-prompts.md](live-demo-prompts.md) to replay the workflow
+5. Use the official skills repository when you want to inspect the source skills directly
 
 ## Primary Skills Used In The Workshop
 

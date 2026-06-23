@@ -4,6 +4,10 @@
 
 This repository lets you replay the workshop after it ends.
 
+If you want the step-by-step setup for VS Code or another AI IDE, start with:
+
+- [ai-ide-integration-guide.md](ai-ide-integration-guide.md)
+
 The workflow is intentionally simple:
 
 1. run the standalone baseline app locally
