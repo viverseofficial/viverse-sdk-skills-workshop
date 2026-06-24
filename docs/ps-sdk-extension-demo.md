@@ -36,9 +36,9 @@ PS SDK integration 比 auth 或 leaderboard 更容易掉進細節。
 
 建議改用 flight simulator 類型的範例，因為它的「替換前 / 替換後」差異最容易被觀眾立即看懂。
 
-建議來源：
+在這個 workshop repo 裡，對應的 base source 已經放在：
 
-- `viverse-ai-agent/templates/demo-flight-simulator-v2`
+- [../apps/flight-simulator-ps-base](../apps/flight-simulator-ps-base)
 
 原因：
 
@@ -84,7 +84,7 @@ PS SDK integration 比 auth 或 leaderboard 更容易掉進細節。
 
 1. 先用原本 workshop 主線完成第一段內容
 2. 明確告訴觀眾：下面是進階版 skill 範例
-3. 打開 flight simulator template
+3. 打開 repo 內的 flight simulator PS base source
 4. 指出 `aircraftUrl` 與 aircraft replacement hook
 5. 請 AI IDE 先讀 `viverse-polygon-streaming-threejs/SKILL.md`
 6. 要 AI 檢查目前 app 是否已具備 PS SDK 的必要前置條件
@@ -97,19 +97,19 @@ PS SDK integration 比 auth 或 leaderboard 更容易掉進細節。
 ### Prompt A：先分類目前 app 的 PS readiness
 
 ```text
-Read the skill at skills/viverse-polygon-streaming-threejs/SKILL.md from the VIVERSE SDK Skills repository and inspect demo-flight-simulator-v2. Tell me whether this app already has the required Polygon Streaming runtime structure, what still needs to be verified, and what the safest next step is.
+Read the skill at skills/viverse-polygon-streaming-threejs/SKILL.md from the VIVERSE SDK Skills repository and inspect apps/flight-simulator-ps-base in the workshop repo. Tell me whether this app already has the required Polygon Streaming runtime structure, what still needs to be verified, and what the safest next step is.
 ```
 
 ### Prompt B：要求 AI 實作或確認 aircraft replacement
 
 ```text
-Read the VIVERSE Polygon Streaming Three.js skill and integrate a Polygon Streaming aircraft replacement into demo-flight-simulator-v2 using the existing aircraftUrl hook. Preserve gameplay, keep a visible fallback until wrapper-level load success is confirmed, and validate the required service worker, transcoder assets, wrapper events, and post-load fitting behavior.
+Read the VIVERSE Polygon Streaming Three.js skill and integrate a Polygon Streaming aircraft replacement into apps/flight-simulator-ps-base using the existing aircraftUrl hook. Preserve gameplay, keep a visible fallback until wrapper-level load success is confirmed, and validate the required service worker, transcoder assets, wrapper events, and post-load fitting behavior.
 ```
 
 ### Prompt C：要求 AI 做最窄驗證
 
 ```text
-Run the narrowest validation for the Polygon Streaming integration in demo-flight-simulator-v2. Confirm build output, required static assets, expected wrapper event wiring, and whether the streamed aircraft replacement is ready for live demo use.
+Run the narrowest validation for the Polygon Streaming integration in apps/flight-simulator-ps-base. Confirm build output, required static assets, expected wrapper event wiring, and whether the streamed aircraft replacement is ready for live demo use.
 ```
 
 ## 建議在投影片上怎麼說

@@ -18,6 +18,12 @@ Use this workshop repository when you want the student-facing entry point, basel
 
 This is the standalone starting point used in the workshop.
 
+## PS Extension Demo Base
+
+- [../apps/flight-simulator-ps-base](../apps/flight-simulator-ps-base)
+
+This is the in-repo base source for the optional Polygon Streaming SDK extension segment.
+
 ## Student Reading Order
 
 1. Read [ai-ide-integration-guide.md](ai-ide-integration-guide.md)
@@ -48,3 +54,4 @@ If you want an extended slide version that also covers Polygon Streaming SDK int
 If you want to add Polygon Streaming SDK coverage without turning it into a separate workshop, use:
 
 - [ps-sdk-extension-demo.md](ps-sdk-extension-demo.md)
+- [../apps/flight-simulator-ps-base/README.md](../apps/flight-simulator-ps-base/README.md)

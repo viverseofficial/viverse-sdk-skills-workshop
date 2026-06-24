@@ -1,0 +1,18 @@
+{
+  "name": "demo-flight-simulator-v2",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@polygon-streaming/web-player-threejs": "^2.9.0-beta.2",
+    "@strudel/web": "^1.3.0",
+    "three": "^0.172.0"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}
